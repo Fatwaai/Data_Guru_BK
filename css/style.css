@@ -1,17 +1,20 @@
-.container {
-    width: 800px;
-    margin: auto;
-  }
-  
-  .head {
+.judul {
     text-align: center;
-  }
-  
-  table,
-  th,
-  td {
-    border: 1px solid black;
+}
+
+.container table, tr, td{
     border-collapse: collapse;
-    margin: auto;
-    padding: 7px;
-  }
+    padding: 10px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apa{
+  font-weight: bold;
+}
+
+th{
+    background-color: aquamarine;
+}
